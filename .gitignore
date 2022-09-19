@@ -1,0 +1,8 @@
+# Ignore selected directories and folders
+.virtual_documents/
+.ipynb_checkpoints/
+*.*
+
+# Don't ignore .gitignore and *.ipynb files
+!.gitignore
+!*.ipynb
