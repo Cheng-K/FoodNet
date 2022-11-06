@@ -2,9 +2,10 @@
 .virtual_documents/
 .ipynb_checkpoints/
 Food Datasets/final-dataset/
+*
 *.*
 
 # Don't ignore .gitignore and *.ipynb files
 !.gitignore
 !*.ipynb
-Food Datasets/nutrition5k/dish_ids/README
+
