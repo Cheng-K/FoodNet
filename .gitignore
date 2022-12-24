@@ -2,6 +2,7 @@
 .virtual_documents/
 .ipynb_checkpoints/
 Food Datasets/final-dataset/
+from_kaggle/
 *
 *.*
 
