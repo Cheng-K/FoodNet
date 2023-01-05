@@ -4,9 +4,10 @@
 Food Datasets/final-dataset/
 from_kaggle/
 *
-*.*
 
 # Don't ignore .gitignore and *.ipynb files
 !.gitignore
 !*.ipynb
+!README.txt
+!2017-2018 FNDDS At A Glance - FNDDS Nutrient Values.xlsx
 
