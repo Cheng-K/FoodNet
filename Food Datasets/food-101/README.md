@@ -19,4 +19,4 @@ This folder contains the preprocessing script for Food101 dataset and the datase
 
 ### Issues
 
-Please don't hestitate to raise any issues [here](https://github.com/Cheng-K/FoodNet/issues) if you encounter them during the installtion steps.
+Please don't hestitate to raise any issues [here](https://github.com/Cheng-K/FoodNet/issues) if you encounter them during the installation steps.

@@ -24,4 +24,4 @@ After executing **create_ingredients_database.ipynb**, the structure of this dir
 
 ### Issues
 
-Please don't hestitate to raise any issues [here](https://github.com/Cheng-K/FoodNet/issues) if you encounter them during the installtion steps.
+Please don't hestitate to raise any issues [here](https://github.com/Cheng-K/FoodNet/issues) if you encounter them during the installation steps.

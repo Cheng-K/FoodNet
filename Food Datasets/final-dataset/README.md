@@ -6,7 +6,7 @@ This folder contains the final dataset (after preprocessing Recipes5k, Nutrition
 
 ### Prerequisite
 
-- Downloaded all the datasets and are stored in respective directories
+- Downloaded all the datasets and are stored in their respective directories
 
 ### Installation
 
@@ -58,4 +58,4 @@ You have done set up the datasets for **build_model.ipynb**. 🎉
 
 ### Issues
 
-Please don't hestitate to raise any issues [here](https://github.com/Cheng-K/FoodNet/issues) if you encounter them during the installtion steps.
+Please don't hestitate to raise any issues [here](https://github.com/Cheng-K/FoodNet/issues) if you encounter them during the installation steps.
