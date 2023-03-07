@@ -40,6 +40,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -47,7 +48,7 @@
 
 ## About The Project
 
-A final year project for my undergraduate course. This project aims to propose a multi-task deep learning model that detects the category and
+This is my final year project for my undergraduate course. This project aims to propose a multi-task deep learning model that detects the category and
 ingredients of a captured food image and estimates the food calories and macronutrients consumed
 by users.
 
@@ -69,7 +70,6 @@ This project is made up of two repositories : this & [FoodNet-App](https://githu
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -83,7 +83,7 @@ To get a local copy up and running follow these simple example steps.
    ```
    git clone https://github.com/Cheng-K/FoodNet.git
    ```
-3. Change to root directory
+3. Change to project root directory
    ```
    cd FoodNet
    ```
@@ -95,7 +95,7 @@ To get a local copy up and running follow these simple example steps.
    ```
    conda activate PY38-TF28
    ```
-6. Navigate to _Food Datasets_ subdirectory and follow the instructions from each READMEs in each further subdirectory to get the required datasets.
+6. Navigate to _Food Datasets_ subdirectory and follow the instructions from each READMEs in each further subdirectory to set up the required datasets.
 
 7. _(Optional)_ Set up GPU by installing [CUDA Toolkit 11.2](https://developer.nvidia.com/cuda-toolkit-archive) and [cuDNN SDK 8.1.0](https://developer.nvidia.com/cudnn) or follow [the TensorFlow guide](https://www.tensorflow.org/install/pip).
 
@@ -119,14 +119,17 @@ Directory : **Ingredient Embeddings**
 
 | File                                   | Description                                                                                                                                                          |
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ingredient_embeddings_similarity.ipynb | Generates text embeddings to compare ingredients similarity so the most similar ingredient with nutritional information can be obtained from a nutritional database. |
+| ingredient_embeddings_similarity.ipynb | Generates text embeddings to compare ingredients similarity so the missing nutritional information of an ingredient can be imputed with the most similar ingredient in the nutritional database. |
 
-Directory : **Main**
+Directory : **main**
 
 | File                | Description                                                                                                                                                                                           |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | build_model.ipynb   | Main file that contains code to build and train the proposed deep learning models                                                                                                                     |
 | data_pipeline.ipynb | Prerequisite file for running _build_model.ipynb_. It serialize all the datasets into tfrecord files so that efficient data pipeline can be constructed to feed the data into the deep learning model |
+
+<br></br>
+In summary, the installation steps should set up everything including the datasets. All there is left is executing the **build_model.ipynb** to train the proposed deep learning model.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +169,7 @@ Project Link: [https://github.com/Cheng-K/FoodNet](https://github.com/Cheng-K/Fo
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [linkedin-shield]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-url]: www.linkedin.com/in/chengkei-ong
+[linkedin-url]: https://www.linkedin.com/in/chengkei-ong
 [product-screenshot]: images/screenshot.png
 [keras]: https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white
 [keras-url]: https://keras.io/
