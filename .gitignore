@@ -11,6 +11,6 @@ main/*.json
 # Don't ignore .gitignore and *.ipynb files
 !.gitignore
 !*.ipynb
-!Food\ Datasets/*/*.txt
+!Food\ Datasets/*/*.md
 !Food\ Datasets/USDA-FNDDS/*.xlsx
 Food\ Datasets/USDA-FNDDS/cleaned_food_category.txt
